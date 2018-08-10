@@ -1,18 +1,18 @@
 
-# How Russia’s Twitter Trolls Responded To Charlottesville
+# Here’s How Russia’s Twitter Trolls Reacted To Charlottesville
 
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(out.width="900px", dpi=300)
 ```
 
-Data and [R](https://www.r-project.org/) code to reproduce the analysis and graphics in this [Aug. 10, 2018 BuzzFeed News post](https://www.buzzfeednews.com/article/peteraldhous/ russia-twitter-trolls-charlottesville) on the reaction of Twitter trolls operated by Russia's Internet Research Agency to the violence that erupted in Charlottesville, Virginia, in August 2017. Supporting files are in [this GitHub repository](https://github.com/BuzzFeedNews/2018-08-charlottesville-twitter-trolls).
+Data and [R](https://www.r-project.org/) code to reproduce the analysis and graphics in this [Aug. 10, 2018 BuzzFeed News post](https://www.buzzfeednews.com/article/peteraldhous/russia-twitter-trolls-charlottesville) on the reaction of Twitter trolls operated by Russia's Internet Research Agency to the violence that erupted in Charlottesville, Virginia, in August 2017. Supporting files are in [this GitHub repository](https://github.com/BuzzFeedNews/2018-08-charlottesville-twitter-trolls).
 
 ### Data
 
 On Jul. 31, 2018, researchers Darren Linvill and Patrick Warren of Clemson University in South Carolina [published with FiveThirtyEight](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/) an archive of nearly 3 million tweets linked to accounts identified by Twitter in [two](https://democrats-intelligence.house.gov/uploadedfiles/exhibit_b.pdf) [lists](https://democrats-intelligence.house.gov/uploadedfiles/ira_handles_june_2018.pdf) provided to Congress as being linked to the Internet Research Agency. In February, special counsel Robert Mueller [indicted](https://www.justice.gov/file/1035477/download) the agency and 13 of its employees for interfering in US politics with “a strategic goal to sow discord.” 
 
-BuzzFeed News obtained a new copy of the data directly from the researchers, cleaned to address some small problems with the [publicly shared data](https://github.com/fivethirtyeight/russian-troll-tweets/), and filtered it for tweets from the two main account types most active in trying to influence US politics, called "Left Trolls" and "Right Trolls." We also  processed the data for easier handling by time and date, and filtered for tweets sent from Jun. 19, 2015, a period for which the researchers are confident they have a complete record of tweets from the handles identified by Twitter.
+BuzzFeed News obtained a new copy of the data directly from the researchers. This has been cleaned to address some small problems with the [publicly shared data](https://github.com/fivethirtyeight/russian-troll-tweets/), and filtered for tweets from the two main account types most active in trying to influence US politics, called "Left Trolls" and "Right Trolls" by Linvill and Warren. We also  processed the data for easier handling by time and date, and filtered for tweets sent from Jun. 19, 2015, a period for which the researchers are confident they have a complete record of tweets from the handles identified by Twitter.
 
 Many of the Left Trolls posed as supporters of Black Lives Matter, tweeting about aspects of black culture as well as politics. They tended to support Bernie Sanders, disparage Hillary Clinton, and were most active before the 2016 presidential election. Right Trolls posed as supporters of Donald Trump, and were most active in the summer of 2017.
 
