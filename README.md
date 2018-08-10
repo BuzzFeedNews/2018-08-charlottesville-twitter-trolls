@@ -4,7 +4,7 @@ Data and [R](https://www.r-project.org/) code underlying this Aug. 10, 2018 [Buz
 
 ## Methodology/Code
 
-The code to process the data and repeat the analysis can be found online [here](https://buzzfeednews.github.io/2018-08-charlottesville-twitter_trolls), and in the R Markdown document index.Rmd.
+The code to process the data and repeat the analysis can be found online [here](https://buzzfeednews.github.io/2018-08-charlottesville-twitter-trolls), and in the R Markdown document index.Rmd.
 
 
 ## Questions/Feedback
