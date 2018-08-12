@@ -1,5 +1,5 @@
 
-# Here’s How Russia’s Twitter Trolls Reacted To Charlottesville
+# Russian Trolls Swarmed The Charlottesville March — Then Twitter Cracked Down
 
 ```{r setup, include=FALSE}
 library(knitr)
